@@ -1,0 +1,249 @@
+# ===========================
+# Operating System Files
+# ===========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================
+# IDE and Editor Files
+# ===========================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+# ===========================
+# Node.js (if you add it later)
+# ===========================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===========================
+# Build and Distribution
+# ===========================
+
+# Build outputs
+dist/
+build/
+*.min.js.map
+*.min.css.map
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ===========================
+# Temporary and Cache Files
+# ===========================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output/
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.cache/
+
+# ===========================
+# Version Control
+# ===========================
+
+# Git
+.git/
+*.orig
+
+# SVN
+.svn/
+
+# Mercurial
+.hg/
+.hgignore
+.hgsigs
+.hgsubstate
+.hgtags
+
+# ===========================
+# Backup Files
+# ===========================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# ===========================
+# Server and Deployment
+# ===========================
+
+# HTTP server cache
+.http-server-cache/
+
+# FTP deployment
+.ftpconfig
+.ftppass
+
+# Deployment files
+.deploy/
+.vercel
+.netlify
+
+# ===========================
+# Project Specific
+# ===========================
+
+# Ignore any local testing files
+test/
+tests/
+*.test.html
+
+# Ignore any local development files
+dev/
+local/
+
+# Ignore any personal notes or TODO files
+TODO.txt
+NOTES.txt
+notes/
+
+# ===========================
+# Security
+# ===========================
+
+# SSH keys
+*.pem
+*.key
+*.cert
+*.crt
+
+# API keys and secrets
+secrets/
+.secrets/
+credentials/
+
+# ===========================
+# Miscellaneous
+# ===========================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Large media files (uncomment if needed)
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+
+# Database files
+*.sql
+*.sqlite
+*.db
